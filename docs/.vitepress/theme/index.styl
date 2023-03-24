@@ -1,0 +1,13 @@
+/* .vitepress/theme/index.styl */
+
+.logo {
+  background-image: url($withBase($themeConfig.logo));
+}
+
+@media (prefers-color-scheme: dark) {
+  .logo {
+    background-image: url($withBase($themeConfig.darkLogo));
+  }
+}
+
+
